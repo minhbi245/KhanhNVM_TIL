@@ -26,3 +26,17 @@
 > Như đã nói ở trên bất kì ngôn ngữ lập trình nào cũng cần có biến, vì đây là nơi ta báo cho hệ điều hành đang sử dụng mở ứng dụng của chúng ta lên
 > khi này những biến mà chúng ta khai báo sẽ được cấp phát vào vùng nhớ với kiểu giá trị tương ứng như `Int`, `Float` hoặc kí tự hoặc chuỗi `Char` `String`. 
 > Trong lập trình điều cơ bản là phải có biến thì mới đọc được giá trị cũng như lấy được giá trị từ biến và hiển thị cho người dùng hoặc sử dụng vào tùy mục đích trong chương trình của chúng ta, việc biến có thể được thực thi khi được đưa vào hàm và sử dụng chạy các giá trị đấy, phần về hàm/function/method chúng ta sẽ tìm hiểu sau
+
+``` swift
+
+    var myName: String = "KhanhNVM" // biến được khai báo với keyword var nghĩa là có thể thay đổi được giá trị
+                                    // Biến có tên là `myName` và có kiểu dữ liệu là một chuỗi
+    
+    func syHello() {
+        print("Hello \(myName)")    // Để có thể sử dụng giá trị của biến myName ta chỉ cần gọi tên biến đó ra là đã lấy giá trị từ biến đó
+                                    // biến `myName` được đọc giá trị và thực thi khi được chạy bởi hàm `print()`
+    }
+
+    // Khi ta gọi hàm syHello() thì lệnh bên trong {} sẽ được thực hiện
+    syHello() // hàm được gọi và sẽ chạy các câu lệnh bên trong khối {}
+```
