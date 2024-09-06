@@ -14,3 +14,10 @@
                     // Lúc này nếu cố tình thay đổi giá trị được gán trước đó thành 11 thì sẽ báo lỗi do compiler
 
 ```
+
+- Mọi kiểu dữ liệu ở Swift đều là Object Data Type kể cả kiểu dữ liệu cơ bản là Int, Double, Char, String, etc
+> Int, Double, Char, Float, String được tạo với Struct trong Swift -> Object Data Type
+> Int đại diện các kiểu số nguyên, Int ở Swift có thể chứa giá trị số nguyên lớn tận 64bit
+> Float hay Double đại diện cho các kiểu dữ liệu số thực
+> Char đại diện cho kiểu kí tự trong Swift
+> String thì đại diện cho chuỗi kí tự, ngoài ra String cũng có thể hiểu là Array kí tự
