@@ -21,3 +21,8 @@
 - `Float` hay `Double` đại diện cho các kiểu dữ liệu số thực
 - `Char` đại diện cho kiểu kí tự trong Swift
 - `String` thì đại diện cho chuỗi kí tự, ngoài ra String cũng có thể hiểu là Array kí tự
+
+## Vậy tại sao chúng ta lại cần biến? và phải khai báo biến trong lập trình
+> Như đã nói ở trên bất kì ngôn ngữ lập trình nào cũng cần có biến, vì đây là nơi ta báo cho hệ điều hành đang sử dụng mở ứng dụng của chúng ta lên
+> khi này những biến mà chúng ta khai báo sẽ được cấp phát vào vùng nhớ với kiểu giá trị tương ứng như `Int`, `Float` hoặc kí tự hoặc chuỗi `Char` `String`. 
+> Trong lập trình điều cơ bản là phải có biến thì mới đọc được giá trị cũng như lấy được giá trị từ biến và hiển thị cho người dùng hoặc sử dụng vào tùy mục đích trong chương trình của chúng ta, việc biến có thể được thực thi khi được đưa vào hàm và sử dụng chạy các giá trị đấy, phần về hàm/function/method chúng ta sẽ tìm hiểu sau
