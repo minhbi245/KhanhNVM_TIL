@@ -5,7 +5,7 @@
 - `let` cũng là xin vùng nhớ để chứa giá trị tương ứng với kiểu dữ liệu, tuy nhiên value của `let` khi nhận được rồi thì không thể thay đổi được
 `var` thì ngược lại khi ta đã gán giá trị trước đó cho biến được khai báo với `var` thì sau đó ta có thể thay đổi lại giá trị đã cho
 
-```
+```swift
     var number1: Int = 22
     let number2: Int = 15
 
