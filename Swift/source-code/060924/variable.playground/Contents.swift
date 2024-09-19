@@ -19,3 +19,23 @@ func printOut() {
 // Call function
 sayHello()
 printOut()
+
+
+struct StructureName {
+    // Các properties
+    // Các method
+}
+
+struct Person {
+    //properties
+    var name: String
+    var age: Int
+    
+    // Method/function
+    func displayInfo() {
+        print("Name: \(name)\n Age: \(age)")
+    }
+}
+
+// Syntax create an instance
+let julian = Person(name: "Julian", age: 20)
