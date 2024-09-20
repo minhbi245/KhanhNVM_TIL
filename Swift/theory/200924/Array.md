@@ -77,3 +77,8 @@
 
 
 ```
+
+## Problems to practice about Arrays
+- [1. Two Sum - Leetcode - Easy](https://leetcode.com/problems/two-sum/description/) **
+- [26. Remove Duplicates from Sorted Array - Easy](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=problem-list-v2&envId=array) **
+- [27. Remove Element - Easy](https://leetcode.com/problems/remove-element/description/?envType=problem-list-v2&envId=array) **
