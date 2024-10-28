@@ -59,3 +59,17 @@ func divide(_ a: Int, _ b: Int = 2) -> Int { // with parameter b default value: 
 }
 
 print("Divide with default value b: 2 - a: 10, b: 2, result: \(divide(10, 2))")
+
+
+// MARK: - inout parameter
+func swap(_ a: inout Int, _ b: inout Int) {
+    let temp = a
+    a = b
+    b = temp
+}
+
+var a = 10
+var b = 25
+print("Before swap: a: \(a), b: \(b)")
+swap(&a, &b)
+print("After swap: a: \(a), b: \(b)")
